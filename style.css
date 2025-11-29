@@ -58,3 +58,10 @@ button {
 #colored {
     color: #596d48;
 }
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
