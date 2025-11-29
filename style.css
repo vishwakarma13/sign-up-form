@@ -64,4 +64,22 @@ button {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-image: url(images/leaves-image.jpg);
+    background-size: cover;
+    color: white;
+}
+
+h2 {
+    padding-left: 5%;
+    margin-top: 0;
+}
+
+.labelinputdivs {
+    display: flex;
+    flex-direction: column;
+}
+
+.formflex {
+    display: flex;
+    
 }
