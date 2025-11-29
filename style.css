@@ -27,3 +27,14 @@ body {
 .bottom {
     height: 35%;
 }
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divintop {
+    padding-left: 5%;
+    padding-right: 20%;
+}
