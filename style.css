@@ -1,5 +1,11 @@
+@font-face {
+    font-family: custom-norse-font;
+    src: url(font/Norse-Bold.otf);
+}
+
 * {
     outline: 1px solid red;
+    font-family: custom-norse-font;
 }
 
 .left {
