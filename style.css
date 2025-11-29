@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid red;
+    outline: 1px solid red;
 }
 
 .left {
@@ -14,4 +14,16 @@
 
 body {
     display: flex;
+}
+
+.top {
+    height: 35%;
+}
+
+.mid {
+    height: 30%;
+}
+
+.bottom {
+    height: 35%;
 }
