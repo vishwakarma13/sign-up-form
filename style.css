@@ -22,6 +22,8 @@ body {
 
 .mid {
     height: 30%;
+    padding-left: 5%;
+    padding-right: 20%;
 }
 
 .bottom {
@@ -81,5 +83,6 @@ h2 {
 
 .formflex {
     display: flex;
+    justify-content: space-between;
     
 }
