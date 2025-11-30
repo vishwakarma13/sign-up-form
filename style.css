@@ -8,6 +8,10 @@
     src: url(font/Roboto-Bold.ttf);
 }
 
+body {
+    margin: 0;
+}
+
 * {
     font-family: custom-roboto-font;
 }
@@ -114,6 +118,8 @@ h2 {
 #darkbg div {
     font-family: custom-norse-font;
     font-size: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 img {
@@ -136,6 +142,11 @@ label {
 }
 
 input:focus {
-    outline-color:  1px solid blue;
+    outline:  1px solid blue;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 
+}
+
+input[type="password"]:invalid {
+    outline-color: red;
 }
