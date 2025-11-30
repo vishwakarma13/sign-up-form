@@ -100,4 +100,17 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#darkbg div {
+    font-family: custom-norse-font;
+    font-size: 5rem;
+}
+
+img {
+    width: auto;
+    height: 100%;
 }
