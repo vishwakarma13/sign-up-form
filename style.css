@@ -150,3 +150,7 @@ input:focus {
 input[type="password"]:invalid {
     outline-color: red;
 }
+
+a {
+    color: white;
+}
