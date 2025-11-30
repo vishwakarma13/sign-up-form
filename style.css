@@ -114,3 +114,7 @@ img {
     width: auto;
     height: 100%;
 }
+
+#italic {
+    font-style: italic;
+}
