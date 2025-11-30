@@ -86,11 +86,13 @@ button {
 
 h2 {
     margin-top: 0; 
+    margin-bottom: 0;
 }
 
 .labelinputdivs {
     display: flex;
     flex-direction: column;
+    padding: 5px;
 }
 
 .formflex {
@@ -121,4 +123,19 @@ img {
 
 #italic {
     font-style: italic;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+input:focus {
+    outline-color:  1px solid blue;
+
 }
